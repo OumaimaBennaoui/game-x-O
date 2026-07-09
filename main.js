@@ -25,6 +25,12 @@ function winnner() {
     } else if (squares[7] == squares[8] && squares[8] == squares[9] && squares[8] != '') {
         end(7, 8, 9);
     }
+     else if (squares[1] == squares[5] && squares[5] == squares[9] && squares[5] != '') {
+        end(1, 5, 9);
+    }
+     else if (squares[3] == squares[5] && squares[5] == squares[7] && squares[3] != '') {
+        end(3,7, 5);
+    }
     else if (squares[1] != '' && squares[2] != '' && squares[3] != '' && 
              squares[4] != '' && squares[5] != '' && squares[6] != '' && 
              squares[7] != '' && squares[8] != '' && squares[9] != '') {
